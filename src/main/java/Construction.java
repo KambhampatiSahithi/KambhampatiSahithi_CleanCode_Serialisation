@@ -32,49 +32,5 @@ public class Construction
 
         return this.total_const_cost;
 
-        /*if(material.equals("standard materials"))
-        {
-            total_const_cost=1200;
-            if(fully_automated)
-            {
-                total_const_cost=total_const_cost+700;
-            }
-            total_const_cost=total_const_cost*area;
-        }
-        else if(material.equals("above standard materials"))
-        {
-            total_const_cost=1500;
-            if(fully_automated)
-            {
-                total_const_cost=total_const_cost+700;
-            }
-            total_const_cost=total_const_cost*area;
-        }
-        else if(material.equals("high standard materials"))
-        {
-            total_const_cost=1800;
-            if(fully_automated)
-            {
-                total_const_cost=total_const_cost+700;
-
-            }
-            total_const_cost=total_const_cost*area;
-
-        }
-        else if(material.equals("above  standard materials"))
-        {
-            total_const_cost=2500;
-            if(fully_automated)
-            {
-                total_const_cost=total_const_cost+700;
-            }
-            total_const_cost=total_const_cost*area;
-        }
-        else
-        {
-            final double v = 0.0;
-            return v;
-        }
-        return total_const_cost;*/
     }
 }
